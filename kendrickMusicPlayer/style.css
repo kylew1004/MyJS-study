@@ -1,0 +1,288 @@
+body {
+    display : flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.screen1 {
+    display : flex;
+    flex-direction: column;
+    width: 230px;
+    height: 530px;
+    position: relative;
+    box-shadow: 2px 2px 20px grey;
+    border : none;
+    border-radius: 25px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.status_bar {
+    display : flex;
+    width : 95%;
+    padding-top : 20px;
+    justify-content: space-between;
+}
+
+.middle {
+    display : flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom : 20px;
+}
+
+#profile {
+    display : flex;
+    border : none;
+    border-radius: 50%;
+    width : 100px;
+    height : 100px;
+    box-shadow: 1px 1px 10px 1px brown;
+}
+
+#profile_name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: nunito;
+}
+
+#genre {
+    font-size: 12px;
+    color: grey;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: nunito;
+}
+
+.option {
+    display : flex;
+    width : 190px;
+    justify-content: space-between;
+}
+
+#shuffle {
+    width : 80px;
+    border : none;
+    border-radius: 25px;
+    background-color: black;
+    color : white;
+    padding : 10px;
+    font-size: small;
+    box-shadow: 2px 2px 15px darkblue;
+    font-family: nunito;
+}
+
+#love {
+    align-items: center;
+    width : 90px;
+    border : none;
+    border-radius: 25px;
+    background-color: white;
+    color : black;
+    padding : 10px;
+    font-size: small;
+    justify-content: space-between;
+    box-shadow: 2px 2px 15px pink;
+}
+
+.song_list {
+    display : flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 3%;
+    overflow-y : scroll;
+    height : 200px;
+}
+
+.list {
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: 60px;
+    border : 1px greenyellow;
+    padding : 4px;
+    border-radius: 25px;
+    margin : 2px;
+    box-shadow: 1px 1px 1px darkolivegreen;
+}
+
+.summary {
+    display : flex;
+    flex-direction: column;
+    align-items: left;
+    width : 110px;
+}
+
+.cover {
+    display : flex;
+    border : none;
+    border-radius : 25%;
+    width : 40px;
+    height : 40px;
+}
+
+#composer {
+    color : grey;
+    font-size : 10px;
+}
+
+#title {
+    font-size : 12px;
+    font-weight: bold;
+}
+
+.bar {
+    display : flex;
+    position: absolute;
+    left: 2%;
+    bottom: 4%;
+    justify-content: center;
+    align-items: center;
+    border : none;
+    border-radius: 25px;
+    background-color: black;
+    width : 220px;
+    height : 50px;
+    box-shadow: 2px 2px 15px grey;
+}
+
+.playing {
+    margin-right : 40px;
+}
+
+#playing_title {
+    color : white;
+    font-size : 11px;
+    font-weight: bolder;
+}
+
+#playing_composer {
+    color : grey;
+    font-size : 10px;
+}
+
+.player {
+    display: flex;
+    color : white;
+    width : 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-step-backward {
+    font-size: 10px;
+}
+
+.fa-pause {
+    font-size: 13px;
+}
+
+.fa-step-forward {
+    font-size: 10px;
+}
+
+.screen2 {
+    display : flex;
+    margin-top: 20px;
+    align-items: center;
+    flex-direction: column;
+    width: 230px;
+    height: 530px;
+    position: relative;
+    align-items: center;
+    box-shadow: 2px 2px 20px grey;
+    border: none;
+    border-radius: 25px;
+}
+
+.status_bar2 {
+    display : flex;
+    width : 95%;
+    padding-top : 20px;
+    justify-content: space-between;
+}
+
+.middle2 {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.play {
+    display: flex;
+    width : 180px;
+    height : 180px;
+    border : none;
+    border-radius: 25px;
+    box-shadow: 2px 2px 20px grey;
+}
+
+#playing_title2 {
+    font-size : 20px;
+    font-weight: bold;
+    margin-top: 50px;
+    text-shadow: 5px 5px 10px cadetblue;
+}
+
+#playing_composer {
+    font-size : 10px;
+    color : grey;
+    margin-top: 10px;
+}
+
+.play_bar {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.playing_time {
+    display : flex;
+    width : 160px;
+    justify-content: space-between;
+}
+
+#start {
+    font-size : 5px;
+    color : grey;
+}
+
+#over {
+    font-size : 5px;
+    color : grey;
+}
+
+.controller {
+    display : flex;
+    width : 160px;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.fa-redo-alt {
+    font-size : 10px;
+    color : grey;
+}
+
+.left {
+    font-size : 20px;
+}
+
+.mid {
+    font-size : 40px;
+}
+
+.right {
+    font-size: 20px;
+}
+
+.fa-random {
+    font-size: 10px;
+    color : grey;
+}
