@@ -1,0 +1,296 @@
+body {
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box {
+  display : flex;
+  flex-wrap: wrap;
+  width : 300px;
+  border : none;
+  background-color: silver;
+}
+
+.status_bar_column {
+  display: flex;
+  margin: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.yellow {
+  display: flex;
+  width: 100%;
+  border: none;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: bisque;
+}
+
+#library {
+  display: flex;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.top {
+  display : flex;
+  width : 100%;
+  justify-content: center;
+}
+
+.search_books {
+  display : flex;
+  align-items: center;
+  flex-wrap: wrap;
+  border : none;
+  border-radius: 25px;
+  background-color: white;
+  padding : 4px;
+  margin-top: -4%;
+  box-shadow: 3px 3px 1px 1px gray;
+}
+
+#search {
+  display : flex;
+  border: none;
+  border-radius: 25px;
+}
+
+input::placeholder {
+  font-size: x-small;
+}
+
+#search_button {
+  display: flex;
+  border : none;
+  background-color: white;
+  border-radius: 25px;
+  color : gainsboro;
+}
+
+.info {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-between;
+  margin: 10px;
+  margin-top: 20px;
+}
+
+#books_of_the_day {
+  font-weight: bold;
+  font-size: large;
+  margin-left: 3px;
+}
+
+.detail_info {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+#image_box {
+  display: flex;
+  width: 110px;
+  height: 150px;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#book_title {
+  font-size: small;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+#writer {
+  font-size: x-small;
+  color: gray;
+  margin-left: 15px;
+  margin-top: 3px;
+}
+
+.stars1 {
+  display : flex;
+  margin : 15px;
+}
+.buttons {
+  display: flex;
+  margin-top: 5%;
+  margin-left: 10px;
+  flex-direction: row;
+}
+
+.other_buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.category {
+  background-color: gainsboro;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5%;
+}
+
+.bookmark {
+  display : flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50px;
+  background-color: goldenrod;
+  color: khaki;
+  margin-left: 10%;
+  margin-right:20%;
+  padding : 5px;
+}
+#subscribe {
+  display : flex ;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border : none;
+  width : 10px;
+  height: 10px;
+  border-radius: 50px;
+  background-color: goldenrod;
+}
+
+#bookmark_size {
+  font-size: 10px;
+}
+
+#book_now {
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width : 120px;
+  height : 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.button_book_now {
+  font-size: 10px;
+}
+
+.recommand {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  width:100%;
+  height: 20%;
+  overflow: hidden;
+}
+
+#top_adventure {
+  font-weight: bold;
+  font-size: large;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+.book_list {
+  display: flex;
+  width: 95%;
+  height: 200px;
+  overflow-x: scroll;
+  white-space: nowrap;
+  margin-bottom: 4%;
+}
+
+.list_and_stars {
+  display: flex;
+  flex-direction: column;
+}
+
+.stars2 {
+  display: flex;
+  flex-direction: row;
+  margin: 2px;
+  justify-content: center;
+}
+
+.fa-star {
+  font-size: 3px;
+  color: wheat
+}
+
+.far {
+  color:gray;
+}
+
+.list {
+  margin: 5px;
+  width:80px;
+  height: 170px;
+  border: none;
+  border-radius: 5px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#popular_authors {
+  font-size: large;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+.popular_authors {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: 10px;
+  align-items: center;
+}
+
+.author {
+  display: flex;
+  width: 100px;
+  height: 120px;
+  border: none;
+  border-radius: 15px;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+#title {
+  display: flex;
+  font-size: 15px;
+  font-weight: bolder;
+  margin-bottom: 10%;
+}
+
+#content {
+  display: flex;
+  font-size: 2px;
+  color: gray;
+}
