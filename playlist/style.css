@@ -1,0 +1,130 @@
+body {
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.box {
+  display : flex;
+  flex-wrap: wrap;
+  width : 300px;
+  border : 5px solid;
+  border-color: mediumaquamarine ;
+  background-color: mintcream;
+}
+
+.status_bar_column {
+  display: flex;
+  margin: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#playlist {
+  font-weight: bolder;
+  margin-left: 90px;
+  font-size: larger;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+  margin-left: 24px;
+}
+
+.image_box {
+  display: flex;
+  width: 125px;
+  height: 100px;
+  border: 3px solid;
+  border-radius: 10px;
+  border-color: rgb(148, 247, 247);
+  overflow: hidden;
+}
+
+.song_info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+#song_name {
+  font-size: x-large;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#composer {
+  font-size: medium;
+}
+
+.song_list {
+  display: flex;
+  margin: 10px;
+  flex-direction: column;
+
+}
+
+.function {
+  display : flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 10px
+}
+
+.button {
+  display: flex;
+  background-color: #04AA6D;
+  border: 2px solid;
+  border-bottom: 4px solid;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 15px;
+  margin: 7px ;
+  border-radius: 50px;
+  border-color: khaki;
+}
+
+.button:first-child {
+  width: 140px;
+  text-align: center;
+  margin-left: 12px;
+}
+
+#play {
+  margin: auto;
+}
+
+.song {
+  display : flex ; 
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.list_box {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  border: 2px solid;
+  border-color: paleturquoise;
+  border-radius: 10px;
+  margin: 5px;
+  overflow: hidden;
+}
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  margin-left: 10px;
+}
+
+.name {
+  font-size: small;
+  margin-left: 10px;
+}
